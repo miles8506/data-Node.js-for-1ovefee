@@ -1,76 +1,153 @@
 [
   {
-    "hot": {
-      "list": [
+    "bannerImg": [
+      "https://shoplineimg.com/59eaf9ed4e22a6e1a5002f67/60867db3ed79c3003894bddd/2400x.webp?source_format=jpg",
+      "https://shoplineimg.com/59eaf9ed4e22a6e1a5002f67/60867db042ac98002f5dbcd3/2400x.webp?source_format=jpg",
+      "https://shoplineimg.com/59eaf9ed4e22a6e1a5002f67/60867db0023c90002f62a500/2400x.webp?source_format=jpg"
+    ],
+    "advImg": "https://shoplineimg.com/59eaf9ed4e22a6e1a5002f67/6049d21b91edff0020d8d086/2400x.webp?source_format=jpg"
+  },
+  {
+    "new": {
+      "0": [
         {
           "id": "000",
           "goodsName": "連衣裙韓版小衆過膝休閒裙子",
           "oldPrice": "899",
           "newPrice": "799",
-          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i1/2773421282/O1CN01uUzjG91LLCQX3XN2J_!!2773421282.jpg_400x400Q50s50.jpg_.webp"
+          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i1/2773421282/O1CN01uUzjG91LLCQX3XN2J_!!2773421282.jpg_400x400Q50s50.jpg_.webp",
+          "moreImg": [
+            "https://img.alicdn.com/imgextra/i1/2773421282/O1CN01U0RE1T1LLCQclTgV7_!!2773421282.jpg",
+            "https://img.alicdn.com/imgextra/i3/2773421282/O1CN012AqDnY1LLCQTvFMta_!!2773421282.jpg",
+            "https://img.alicdn.com/imgextra/i1/2773421282/O1CN01qA9EJT1LLCQYRaDBB_!!2773421282.jpg",
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01FHypXT1LLCQTMLxbz_!!2773421282.jpg",
+            "https://img.alicdn.com/imgextra/i3/2773421282/O1CN01X1YWd61LLCQXJeXEo_!!2773421282.jpg"
+          ]
         },
         {
           "id": "001",
           "goodsName": "五分褲輕熟套裝",
           "oldPrice": "599",
           "newPrice": "499",
-          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i4/2773421282/O1CN01dyD6Rr1LLCQPeIrRn_!!2773421282.jpg_400x400Q50s50.jpg_.webp"
+          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i4/2773421282/O1CN01dyD6Rr1LLCQPeIrRn_!!2773421282.jpg_400x400Q50s50.jpg_.webp",
+          "moreImg": [
+            "https://img.alicdn.com/imgextra/i2/2773421282/O1CN01fq58A01LLCQWwgZEo_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i2/2773421282/O1CN01Cmdmyx1LLCQTKisF8_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i2/2773421282/O1CN01mZ3SRm1LLCQTKhrsz_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i3/2773421282/O1CN01eUwuUr1LLCQSCBjRD_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i3/2773421282/O1CN01P0RNoq1LLCQOLcXZx_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp"
+          ]
         },
         {
           "id": "002",
           "goodsName": "米白色半鬆緊設計百搭蓬蓬裙韓版長裙",
           "oldPrice": "799",
           "newPrice": "599",
-          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i4/2773421282/O1CN01PxBCHQ1LLCPwuSX0F_!!2773421282.jpg_400x400Q50s50.jpg_.webp"
+          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i4/2773421282/O1CN01PxBCHQ1LLCPwuSX0F_!!2773421282.jpg_400x400Q50s50.jpg_.webp",
+          "moreImg": [
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01PxBCHQ1LLCPwuSX0F_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01fj5xrz1LLCPqME1d9_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i3/2773421282/O1CN013TxvxY1LLCPsK2mR7_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i2/2773421282/O1CN01amFYGW1LLCPsbdSDt_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i1/2773421282/O1CN01chhYUu1LLCPoZ6kxQ_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp"
+          ]
         },
         {
           "id": "003",
           "goodsName": "百搭純色V領針織鈕釦開衫韓版針織衫",
           "oldPrice": "799",
           "newPrice": "599",
-          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i1/2773421282/O1CN01s7RN3k1LLCPtg4DwO_!!2773421282.jpg_400x400Q50s50.jpg_.webp"
+          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i1/2773421282/O1CN01s7RN3k1LLCPtg4DwO_!!2773421282.jpg_400x400Q50s50.jpg_.webp",
+          "moreImg": [
+            "https://img.alicdn.com/imgextra/i1/2773421282/O1CN01ZI4zRv1LLCPvvSRaV_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01Xf1FHy1LLCPsPfgAJ_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01cwvDYe1LLCPtPictZ_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i2/2773421282/O1CN010DRaOM1LLCPsPf8tg_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i3/2773421282/O1CN01iFiZdi1LLCPpr04Lx_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp"
+          ]
         },
         {
           "id": "004",
           "goodsName": "百搭大容量簡約韓版單肩包包2021流浪包",
           "oldPrice": "499",
           "newPrice": "399",
-          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i1/2773421282/O1CN01kvLGGO1LLCNu5jmRC_!!2773421282.jpg_400x400Q50s50.jpg_.webp"
+          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i1/2773421282/O1CN01kvLGGO1LLCNu5jmRC_!!2773421282.jpg_400x400Q50s50.jpg_.webp",
+          "moreImg": [
+            "https://img.alicdn.com/imgextra/i3/2773421282/O1CN01PuRy7Y1LLCNlwqI15_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01yKMOnb1LLCNkmey8T_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01RU56Wx1LLCNlc7X88_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01DmE3tx1LLCNlc6viT_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01GiZ6Hs1LLCNjH4PDe_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp"
+          ]
         },
         {
           "id": "005",
           "goodsName": "休閒顯瘦西裝套裝",
           "oldPrice": "899",
           "newPrice": "799",
-          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i1/2773421282/O1CN011jq5Lq1LLCPrCvn1y_!!2773421282.jpg_400x400Q50s50.jpg_.webp"
+          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i1/2773421282/O1CN011jq5Lq1LLCPrCvn1y_!!2773421282.jpg_400x400Q50s50.jpg_.webp",
+          "moreImg": [
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01H0OKgD1LLCPkbWPTE_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01xxiea41LLCPuAiK7y_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01gHxfJn1LLCPkbYQDD_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i1/2773421282/O1CN01jEANtN1LLCPpKHruc_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i2/2773421282/O1CN015c33eB1LLCPtAMyxB_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp"
+          ]
         },
         {
           "id": "006",
           "goodsName": "日常簡約桔梗襯衫式顯瘦寬鬆連衣裙",
           "oldPrice": "899",
           "newPrice": "799",
-          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i2/2773421282/O1CN01Uzu9Cr1LLCPyL1elN_!!2773421282.jpg_400x400Q50s50.jpg_.webp"
+          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i2/2773421282/O1CN01Uzu9Cr1LLCPyL1elN_!!2773421282.jpg_400x400Q50s50.jpg_.webp",
+          "moreImg": [
+            "https://img.alicdn.com/imgextra/i2/2773421282/O1CN01Uzu9Cr1LLCPyL1elN_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01ROEGA01LLCPwhnemP_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i1/2773421282/O1CN01SX4DQW1LLCPqdDh95_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i3/2773421282/O1CN01bAcv3e1LLCPuSMozr_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01TM3P7E1LLCPwhn7XA_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp"
+          ]
         },
         {
           "id": "007",
           "goodsName": "百搭小女人短tee韓版修身顯瘦時髦短袖上衣",
           "oldPrice": "499",
           "newPrice": "399",
-          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i4/2773421282/O1CN01KaFJq21LLCQi6uu6v_!!2773421282.jpg_400x400Q50s50.jpg_.webp"
+          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i4/2773421282/O1CN01KaFJq21LLCQi6uu6v_!!2773421282.jpg_400x400Q50s50.jpg_.webp",
+          "moreImg": [
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01KaFJq21LLCQi6uu6v_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i1/2773421282/O1CN01Yfm5dD1LLCQYkJjtP_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01EROQ0X1LLCQcW0xld_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01wdjolM1LLCQixeDSH_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN016gQ8lH1LLCQcdDOwV_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp"
+          ]
         },
         {
           "id": "008",
           "goodsName": "寬鬆通勤後背開叉可鈕釦大阪男友襯衫",
           "oldPrice": "499",
           "newPrice": "299",
-          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i4/2773421282/O1CN01F4BlVP1LLCPxXYxOV_!!2773421282.jpg_400x400Q50s50.jpg_.webp"
+          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i4/2773421282/O1CN01F4BlVP1LLCPxXYxOV_!!2773421282.jpg_400x400Q50s50.jpg_.webp",
+          "moreImg": [
+            "https://img.alicdn.com/imgextra/i1/2773421282/O1CN01Ie0h3s1LLCPsDgdhG_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i1/2773421282/O1CN01wnuoDx1LLCPsOVRNQ_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i2/2773421282/O1CN01c7Na5t1LLCPwtIYvZ_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01Z7mdFv1LLCPvV0Pok_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i3/2773421282/O1CN01UrfmKs1LLCPwtHl0N_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp"
+          ]
         },
         {
           "id": "009",
           "goodsName": "百搭高腰亞麻闊腿褲韓版百搭直筒寬鬆褲子",
           "oldPrice": "699",
           "newPrice": "599",
-          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i4/2773421282/O1CN01dzMpkp1LLCQdnv14A_!!2773421282.jpg_400x400Q50s50.jpg_.webp"
+          "img": "https://img.alicdn.com/img/bao/uploaded/i4/i4/2773421282/O1CN01dzMpkp1LLCQdnv14A_!!2773421282.jpg_400x400Q50s50.jpg_.webp",
+          "moreImg": [
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01dzMpkp1LLCQdnv14A_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i2/2773421282/O1CN018H07zj1LLCQfxm7G5_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01NKUrpP1LLCQadF373_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp",
+            "https://img.alicdn.com/imgextra/i4/2773421282/O1CN01sry9OM1LLCQfxnj5O_!!2773421282.jpg_2200x2200Q50s50.jpg_.webp"
+          ]
         },
         {
           "id": "010",
@@ -113,7 +190,9 @@
           "oldPrice": "899",
           "newPrice": "599",
           "img": "https://img.alicdn.com/img/bao/uploaded/i4/i1/2773421282/O1CN01SHwVOP1LLCQ7fHgKm_!!2773421282.jpg_400x400Q50s50.jpg_.webp"
-        },
+        }
+      ],
+      "1": [
         {
           "id": "016",
           "goodsName": "百搭修身露肩V領吊帶連衣裙",
@@ -226,8 +305,7 @@
           "newPrice": "299",
           "img": "https://img.alicdn.com/img/bao/uploaded/i4/i2/2773421282/O1CN01wNEuUj1LLCQe2iXUP_!!2773421282.jpg_400x400Q50s50.jpg_.webp"
         }
-      ],
-      "page": "1"
+      ]
     }
   }
 ]
