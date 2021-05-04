@@ -1,5 +1,3 @@
-# data-Node.js-for-1ovefee
-
 # 步驟1
 下載檔案
 ![image](https://github.com/miles8506/data-Node.js-for-1ovefee/blob/master/img/step1.png)
@@ -10,7 +8,7 @@
 node app.js
 ```
 
-需注意該該localhost本地伺服器是佔用端口號3000
+需注意該localhost本地伺服器是佔用端口號3000
 
 # 步驟三
-確認開始運行後即可點擊前往該sideproject [id]: https://miles8506.github.io/1ovfee/home  "作品"
+確認開始運行後即可點擊前往該sideproject [作品](https://miles8506.github.io/1ovfee/home)
