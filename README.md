@@ -1,3 +1,7 @@
+*執行以下步驟前請先確認電腦是否有安裝Ｎode.js
+```
+node -v
+```
 # 步驟1
 下載檔案
 ![image](https://github.com/miles8506/data-Node.js-for-1ovefee/blob/master/img/step1.png)
@@ -12,3 +16,4 @@ node app.js
 
 # 步驟三
 確認開始運行後即可點擊前往該sideproject [作品](https://miles8506.github.io/1ovfee/home)
+
