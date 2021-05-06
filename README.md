@@ -7,7 +7,7 @@ node -v
 ![image](https://github.com/miles8506/data-Node.js-for-1ovefee/blob/master/img/step1.png)
 
 # 步驟二
-開啟ndm(終端機)，cd至下載檔案名的根目錄並執行以下指令。
+開啟cmd(終端機)，cd至下載檔案名的根目錄並執行以下指令。
 ```
 node app.js
 ```
