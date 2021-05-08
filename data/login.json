@@ -1,5 +1,11 @@
 [
   {
-    "user": []
+    "user": [
+      {
+        "registerAccount": "a09112332@gmail.com",
+        "registerPsw": "123456",
+        "wishList": []
+      }
+    ]
   }
 ]
