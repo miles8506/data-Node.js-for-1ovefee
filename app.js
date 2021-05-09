@@ -35,6 +35,7 @@ app.post('/register', (req, res) => {
         return;
       };
     };
+    body.wishList = [];
     userData.push(body);
     data = JSON.stringify(data);
     fs.writeFile('./data/login.json', data, (err) => {
@@ -50,6 +51,7 @@ app.post('/login', (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
   const body = req.body;
   fs.readFile('./data/login.json', (err, data) => {
+    if (err) return console.log('err');
     let userData = JSON.parse(data);
     const flag = userData[0].user.some(item => {
       return item.registerAccount == body.account && item.registerPsw == body.psw;
@@ -75,6 +77,7 @@ app.get('/wish', (req, res) => {
   const account = req.query.data.account;
   if (wishList !== undefined) {
     fs.readFile('./data/login.json', 'utf8', (err, res) => {
+      if (err) return console.log('err');
       let data = JSON.parse(res);
       const index = data[0].user.findIndex(item => item.registerAccount === account)
       data[0].user[index].wishList = wishList
@@ -85,6 +88,7 @@ app.get('/wish', (req, res) => {
     });
   } else {
     fs.readFile('./data/login.json', 'utf8', (err, res) => {
+      if (err) return console.log('err');
       let data = JSON.parse(res);
       const index = data[0].user.findIndex(item => item.registerAccount === account)
       data[0].user[index].wishList = [];
@@ -97,6 +101,25 @@ app.get('/wish', (req, res) => {
   };
   res.send('1');
 });
+
+//search
+app.get('/search', (req, res) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  const query = req.query.data;
+  fs.readFile('./data/data.json', 'utf8', (err, data) => {
+    if (err) return console.log('err');
+    const countData = [];
+    data = JSON.parse(data)[1].count;
+    const filterArray = data.filter(item => {
+      if (item.goodsName.includes(query)) {
+        return item;
+      };
+    });
+    if (filterArray.length == 0) return;
+    res.send(filterArray);
+  });
+});
+
 
 app.listen(3000, () => {
   console.log('running')
