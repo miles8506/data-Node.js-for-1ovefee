@@ -120,6 +120,20 @@ app.get('/search', (req, res) => {
   });
 });
 
+app.get('/detail', (req, res) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  const iid = req.query.iid;
+  const sort = req.query.sort;
+  fs.readFile('./data/data.json', 'utf8', (err, data) => {
+    if (err) return console.log('err');
+    data = JSON.parse(data)[1].count;
+    const findData = data.find(item => {
+      return item.id == iid && item.sort == sort;
+    });
+    res.send(findData);
+  })
+})
+
 
 app.listen(3000, () => {
   console.log('running')
