@@ -36,6 +36,7 @@ app.post('/register', (req, res) => {
       };
     };
     body.wishList = [];
+    body.cart = [];
     userData.push(body);
     data = JSON.stringify(data);
     fs.writeFile('./data/login.json', data, (err) => {
@@ -61,13 +62,34 @@ app.post('/login', (req, res) => {
         if (item.registerAccount == body.account) return item;
       })
       const wish = user.wishList;
+      const cart = user.cart;
       //status為1代表登入成功
-      res.send({ status: "1", wish });
+      res.send({ status: "1", wish, cart });
     } else {
       //status為0代表登入失敗(並無此用戶)
       res.send('0');
     }
   })
+});
+
+//logout
+app.get('/logout', (req, res) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  const cartList = req.query.cartList;
+  if (cartList === undefined) return;
+  const user = req.query.user;
+  fs.readFile('./data/login.json', 'utf8', (err, res) => {
+    if (err) return console.log('err');
+    res = JSON.parse(res);
+    let data = res[0].user;
+    let userData = data.find(item => item.registerAccount == user);
+    userData.cart = cartList;
+    console.log(res);
+    res = JSON.stringify(res);
+    fs.writeFile('./data/login.json', res, (err) => {
+      if (err) return console.log('err');
+    });
+  });
 });
 
 //wish_list
@@ -93,7 +115,6 @@ app.get('/wish', (req, res) => {
       const index = data[0].user.findIndex(item => item.registerAccount === account)
       data[0].user[index].wishList = [];
       data = JSON.stringify(data);
-      console.log(data);
       fs.writeFile('./data/login.json', data, (err) => {
         if (err) console.log(err);
       });
@@ -133,6 +154,23 @@ app.get('/detail', (req, res) => {
     res.send(findData);
   })
 })
+
+app.get('/deletewish', (req, res) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  const query = req.query.data;
+  const wishList = query.wishList;
+  if (wishList === undefined) query.wishList = [];
+  fs.readFile('./data/login.json', 'utf8', (err, data) => {
+    data = JSON.parse(data);
+    const user = data[0].user.find(item => item.registerAccount == query.account);
+    user.wishList = wishList;
+    data = JSON.stringify(data);
+    fs.writeFile('./data/login.json', data, (err) => {
+      if (err) return console.log(err);
+      res.send('1');
+    });
+  });
+});
 
 
 app.listen(3000, () => {
